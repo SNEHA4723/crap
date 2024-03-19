@@ -1,0 +1,64 @@
+.sticky {position: fixed;top: 0;width: 100%;background-color: #fff;z-index: 7;}
+.sticky + .content { padding-top: 102px;}
+.header-top{background-color: #000066;}
+.top{padding: 12px 0;}
+.top p{display: inline-block;margin-bottom: 0;margin-left: 5px;}
+.top a{color: #fff!important;font-size: 15px;font-weight: 700;text-decoration: none;margin-left: 20px;
+  font-weight:500; }
+.top a:hover{text-decoration: none;}
+.top span{margin-left: 20px;color: #fff;font-weight: 500;}
+.top-right-menu{padding: 10px 0;font-size: 20px;}
+.top-right-menu ul{list-style-type: none;margin-bottom: 0;}
+.top-right-menu ul li{display: inline-block;}
+.top-right-menu ul li a{color: #fff;margin:0px 8px; font-weight: bold;}
+.nav_cont{height: 70px; margin: 0; padding: 0;}
+.content{ margin-top: -7px;}
+.nav_container{ box-sizing: border-box;}
+.items{color: black; text-transform: capitalize; font-size: 18px; font-weight: 600; }
+.items:hover{background-color: #000066; color: #ffff;border-radius: 20px;transition: .2s;}
+
+.nav_container button:hover{background-color:#0f233f;border: none;}
+.nav_container button a:hover{text-decoration: none;color: #fff;}
+.dropdown-menu{background-color:#000066 !important;color:#fff;}
+
+.dropdown-menu a:hover{background-color:transparent;}
+.letter{letter-spacing: 3px;font-weight: 500;}
+.button-2{font-weight: 600; 
+font-size: 16px; width: 160px;height: 45px; border: none;
+background-color:#000066; color:#fff;  transition: .2s; 
+ text-transform: capitalize; letter-spacing: 1px;}
+ .button-2:hover{background-color: #c90623 !important;transition: .5s;}
+ .nav-color{border-bottom: 3px solid rgb(0,0,153);padding: 15px;}
+.res{color: #000066;font-family:Lucida Calligraphy;position: relative;right: 30px;font-weight: 800; }
+.co{color:#000066;}
+.item3:before{
+  width: 0px;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color:#000066; 
+  bottom:-10px;
+  left: 20px;
+  transition: .s;
+
+}
+.item3:hover::before{width: 60px;}
+.item3{position: relative;color: black; text-transform: capitalize; font-size: 18px; font-weight: 500; }
+.itemx:before{
+  width: 0px;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color:#000066; 
+ bottom: 1px;
+  left: 20px;
+  transition: .1s;
+
+}
+.itemx:hover::before{width: 60px;}
+.itemx{position: relative;color:darkblue; text-transform: capitalize; font-size: 18px; font-weight: 500 !important; }
+
+
+
+
+
